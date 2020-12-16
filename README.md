@@ -13,6 +13,8 @@
 - Axios (Validation code postal) (https://github.com/axios/axios)
 - Jest (Tests unitaire) (https://jestjs.io/)
 - Redux (Langue et Theme) (https://redux.js.org/)
+- Styled component (Styling) (https://styled-components.com/)
+- i18next (Localization) (https://www.i18next.com/)
 
 ---
 
