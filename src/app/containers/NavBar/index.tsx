@@ -2,15 +2,17 @@ import * as React from 'react';
 import styled from 'styled-components/macro';
 import { Logo } from './Logo';
 import { StyleConstants } from 'styles/StyleConstants';
-import { Nav } from './Nav';
 import { PageWrapper } from '../../components/PageWrapper';
+import { ThemeSwitch } from '../ThemeSwitch';
+import { LanguageSwitch } from '../LanguageSwitch';
 
 export function NavBar() {
   return (
     <Wrapper>
       <PageWrapper>
         <Logo />
-        <Nav />
+        <LanguageSwitch />
+        <ThemeSwitch />
       </PageWrapper>
     </Wrapper>
   );

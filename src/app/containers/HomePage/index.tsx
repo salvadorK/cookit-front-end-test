@@ -1,9 +1,9 @@
 import * as React from 'react';
 import { Helmet } from 'react-helmet-async';
 import { NavBar } from '../NavBar';
-import { Masthead } from './Masthead';
 import { Features } from './Features';
 import { PageWrapper } from 'app/components/PageWrapper';
+import { P } from './components/P';
 
 export function HomePage() {
   return (
@@ -17,8 +17,8 @@ export function HomePage() {
       </Helmet>
       <NavBar />
       <PageWrapper>
-        <Masthead />
-        <Features />
+        <P>test</P>
+        {/* <Features /> */}
       </PageWrapper>
     </>
   );

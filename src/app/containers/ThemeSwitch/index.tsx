@@ -1,5 +1,4 @@
 import * as React from 'react';
-import { FormLabel } from 'app/components/FormLabel';
 import { Radio } from 'app/components/Radio';
 import styled from 'styled-components/macro';
 import { changeTheme, selectThemeKey } from 'styles/theme/slice';
@@ -19,7 +18,6 @@ export function ThemeSwitch() {
 
   return (
     <Wrapper>
-      <FormLabel>Select Theme</FormLabel>
       <Themes>
         <Radio
           id="system"
@@ -56,9 +54,6 @@ export function ThemeSwitch() {
 const Wrapper = styled.div`
   display: flex;
   flex-direction: column;
-  ${FormLabel} {
-    margin-bottom: 0.625rem;
-  }
 `;
 const Themes = styled.div`
   display: flex;

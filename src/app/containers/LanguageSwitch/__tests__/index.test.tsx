@@ -20,32 +20,11 @@ describe('<LanguageSwitch />', () => {
     expect(languageSwitch.queryAllByRole('radio').length).toBe(2);
   });
 
-  it('should have translated FormLabel ', async () => {
-    const t = await i18n;
-
-    i18next.changeLanguage('en');
-
-    let languageSwitch = renderLanguageSwitch();
-    let label = languageSwitch.queryByText(
-      t(translations.i18nFeature.selectLanguage),
-    );
-    expect(label).toBeInTheDocument();
-
-    languageSwitch.unmount();
-    i18next.changeLanguage('de');
-
-    languageSwitch = renderLanguageSwitch();
-    label = languageSwitch.queryByText(
-      t(translations.i18nFeature.selectLanguage),
-    );
-    expect(label).toBeInTheDocument();
-  });
-
   it('should change language on click', async () => {
     i18next.changeLanguage('en');
     const languageSwitch = renderLanguageSwitch();
     const radio2 = languageSwitch.queryAllByRole('radio')[1];
     fireEvent.click(radio2);
-    expect(i18next.language).toEqual('de');
+    expect(i18next.language).toEqual('fr');
   });
 });
