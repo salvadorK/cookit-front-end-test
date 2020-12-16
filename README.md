@@ -8,7 +8,7 @@
 
 **Technologies utilisées**
 
-- React
+- React (https://reactjs.org/)
 - Typescript
 - Axios (Validation code postal)
 - Jest (Tests unitaire)
