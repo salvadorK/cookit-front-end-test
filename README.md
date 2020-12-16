@@ -28,7 +28,7 @@ ETQ utilisateur s'abonnant à Cook it:
 - Je souhaite voir un message d'erreur si mon code postal a un format invalide
 - Je souhaite voir un message d'erreur si mon code postal n'est pas présent dans la liste des code postaux disponible (API: `https://cookit-public.s3.amazonaws.com/interview/zips.json`)
 - Je souhaite pouvoir soumettre mes informations et être redirigé vers une page de confirmation
-- Je souhaite voir mes informations présentes sur cette page
+- Je souhaite voir mes informations présentes sur la page page de confirmation
 
 ETQ Code reviewer:
 - Je souhaite voir un pull request compréhensive des changements apportés
