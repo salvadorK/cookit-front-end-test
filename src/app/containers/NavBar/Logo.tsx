@@ -1,11 +1,15 @@
 import * as React from 'react';
 import styled from 'styled-components/macro';
+import { translations } from 'locales/translations';
+import { useTranslation } from 'react-i18next';
+// import { _t } from 'utils/messages';
 
 export function Logo() {
+  const { t } = useTranslation();
   return (
     <Wrapper>
-      <Title>COOK IT</Title>
-      <Description>Front-end test</Description>
+      <Title>{t(translations.logo.title)}</Title>
+      <Description>{t(translations.logo.description)}</Description>
     </Wrapper>
   );
 }

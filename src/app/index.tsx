@@ -14,6 +14,7 @@ import { GlobalStyle } from '../styles/global-styles';
 
 import { HomePage } from './containers/HomePage/Loadable';
 import { NotFoundPage } from './containers/NotFoundPage/Loadable';
+import { Login } from './containers/Login/Loadable';
 import { useTranslation } from 'react-i18next';
 
 export function App() {
@@ -30,6 +31,7 @@ export function App() {
 
       <Switch>
         <Route exact path={process.env.PUBLIC_URL + '/'} component={HomePage} />
+        <Route exact path={process.env.PUBLIC_URL + '/'} component={Login} />
         <Route component={NotFoundPage} />
       </Switch>
       <GlobalStyle />

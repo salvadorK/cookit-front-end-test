@@ -4,7 +4,7 @@ import styled from 'styled-components/macro';
 import { useTranslation } from 'react-i18next';
 
 export function LanguageSwitch() {
-  const { t, i18n } = useTranslation();
+  const { i18n } = useTranslation();
   const handleLanguageChange = (event: React.ChangeEvent<HTMLInputElement>) => {
     const language = event.target.value;
     i18n.changeLanguage(language);
