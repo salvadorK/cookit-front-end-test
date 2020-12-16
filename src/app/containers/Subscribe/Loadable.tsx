@@ -6,9 +6,9 @@ import * as React from 'react';
 import { lazyLoad } from 'utils/loadable';
 import { LoadingIndicator } from 'app/components/LoadingIndicator';
 
-export const Login = lazyLoad(
+export const Subscribe = lazyLoad(
   () => import('./index'),
-  module => module.Login,
+  module => module.Subscribe,
   {
     fallback: <LoadingIndicator />,
   },

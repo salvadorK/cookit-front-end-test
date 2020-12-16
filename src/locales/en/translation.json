@@ -1,6 +1,23 @@
 {
-  "logo": {
-    "title": "COOK IT",
-    "description": "Front-end test"
+  "defaultTitle": "COOKIT - Test Front-end",
+  "navbar": {
+    "logo": {
+      "title": "COOK IT",
+      "description": "Front-end test"
+    },
+    "subscribeButton": {
+      "text": "Subscribe"
+    }
+  },
+  "homepage": {
+    "title": "Home page"
+  },
+  "subscribe": {
+    "title": "Susbscribe",
+    "form": {
+      "email": "Email",
+      "postalCode": "Postal code",
+      "submit": "Submit"
+    }
   }
 }

@@ -3,8 +3,8 @@ import styled from 'styled-components/macro';
 import { Logo } from './Logo';
 import { StyleConstants } from 'styles/StyleConstants';
 import { PageWrapper } from '../../components/PageWrapper';
-import { ThemeSwitch } from '../ThemeSwitch';
 import { LanguageSwitch } from '../LanguageSwitch';
+import { SubscribeButton } from './SubscribeButton';
 
 export function NavBar() {
   return (
@@ -12,7 +12,7 @@ export function NavBar() {
       <PageWrapper>
         <Logo />
         <LanguageSwitch />
-        <ThemeSwitch />
+        <SubscribeButton />
       </PageWrapper>
     </Wrapper>
   );

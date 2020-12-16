@@ -8,8 +8,8 @@ export function Logo() {
   const { t } = useTranslation();
   return (
     <Wrapper>
-      <Title>{t(translations.logo.title)}</Title>
-      <Description>{t(translations.logo.description)}</Description>
+      <Title>{t(translations.navbar.logo.title)}</Title>
+      <Description>{t(translations.navbar.logo.description)}</Description>
     </Wrapper>
   );
 }
