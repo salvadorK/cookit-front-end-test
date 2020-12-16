@@ -9,10 +9,10 @@
 **Technologies utilisées**
 
 - React (https://reactjs.org/)
-- Typescript
-- Axios (Validation code postal)
-- Jest (Tests unitaire)
-- Redux (Langue et Theme)
+- Typescript (https://www.typescriptlang.org/)
+- Axios (Validation code postal) (https://github.com/axios/axios)
+- Jest (Tests unitaire) (https://jestjs.io/)
+- Redux (Langue et Theme) (https://redux.js.org/)
 
 ---
 
