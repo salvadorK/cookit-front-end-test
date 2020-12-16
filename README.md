@@ -6,6 +6,14 @@
 - roulez `npm i` pour installer les modules node 
 - roulez `npm start` pour démarrer le projet
 
+**Technologies utilisées**
+
+- React
+- Typescript
+- Axios (Validation code postal)
+- Jest (Tests unitaire)
+- Redux (Langue et Theme)
+
 ---
 
 **Test**
