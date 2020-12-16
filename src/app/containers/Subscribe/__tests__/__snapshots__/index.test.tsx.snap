@@ -1,22 +1,5 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`<Login /> should render and match the snapshot 1`] = `
-<React.Fragment>
-  <Helmet
-    defer={true}
-    encodeSpecialCharacters={true}
-  >
-    <title />
-    <meta
-      content=""
-      name="description"
-    />
-  </Helmet>
-  <NavBar />
-  <Login__Wrapper />
-</React.Fragment>
-`;
-
 exports[`<Subscribe /> should render and match the snapshot 1`] = `
 <React.Fragment>
   <Helmet
@@ -30,6 +13,33 @@ exports[`<Subscribe /> should render and match the snapshot 1`] = `
     />
   </Helmet>
   <NavBar />
-  <Subscribe__Wrapper />
+  <Subscribe__Wrapper>
+    <h1>
+      Susbscribe
+    </h1>
+    <Subscribe__Form>
+      <FormLabel
+        htmlFor="email"
+      >
+        Email
+      </FormLabel>
+      <Input
+        name="email"
+        type="text"
+      />
+      <FormLabel
+        htmlFor="postalCode"
+      >
+        Postal code
+      </FormLabel>
+      <Input
+        name="postalCode"
+        type="text"
+      />
+      <Button>
+        Submit
+      </Button>
+    </Subscribe__Form>
+  </Subscribe__Wrapper>
 </React.Fragment>
 `;
