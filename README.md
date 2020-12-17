@@ -40,4 +40,23 @@ ETQ Développeur travaillant sur ce projet après l'implémentation:
 
 ---
 
+API:
 
+validation du code postal:
+
+https://s9g64p6vzb.execute-api.us-east-1.amazonaws.com/default/interview-is-zip-valid
+
+Parameters:
+
+| parameter     | type          | required |
+| ------------- |:-------------:| --------:|
+| zip           | string        | false    |
+
+
+Return:
+
+{
+    "is_deliverable": boolean,
+    "has_error": boolean,
+    "error_message": string
+}
