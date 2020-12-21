@@ -43,8 +43,10 @@ ETQ Développeur travaillant sur ce projet après l'implémentation:
 
 API:
 
-usage: validation du code postal:
+usage: validation du code postal
+
 url: https://s9g64p6vzb.execute-api.us-east-1.amazonaws.com/default/interview-is-zip-valid
+
 method: POST
 
 Parameters:
