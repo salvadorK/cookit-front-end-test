@@ -2,7 +2,8 @@
 
 **Mise en place**
 
-- Clonez le repository `git clone cookit-front-end-test-{votre_nom_de_famille}`
+- Forkez le repository 
+- Clonez sur votre environnement `git clone`
 - roulez `npm i` pour installer les modules node 
 - roulez `npm start` pour démarrer le projet
 
@@ -42,9 +43,9 @@ ETQ Développeur travaillant sur ce projet après l'implémentation:
 
 API:
 
-validation du code postal:
-
-https://s9g64p6vzb.execute-api.us-east-1.amazonaws.com/default/interview-is-zip-valid
+usage: validation du code postal:
+url: https://s9g64p6vzb.execute-api.us-east-1.amazonaws.com/default/interview-is-zip-valid
+method: POST
 
 Parameters:
 
