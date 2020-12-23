@@ -34,7 +34,7 @@ ETQ utilisateur s'abonnant à Cook it:
 - Je souhaite voir mes informations soumises présentes sur la page page de confirmation
 
 ETQ Code reviewer:
-- *Je souhaite voir une pull request compréhensible des changements apportés*
+- **Je souhaite voir une pull request compréhensible des changements apportés**
 
 ETQ Développeur travaillant sur ce projet après l'implémentation:
 - je souhaite pouvoir rouler les tests unitaires (`npm run test`) pour savoir si mes changements ont causés une régression
