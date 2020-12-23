@@ -39,7 +39,8 @@ ETQ Code reviewer:
 ETQ Développeur travaillant sur ce projet après l'implémentation:
 - je souhaite pouvoir rouler les tests unitaires (`npm run test`) pour savoir si mes changements ont causés une régression
 
-**Attention** : Il est très important de faire une pull request pour pouvoir identifier votre code du nôtre facilement
+#Attention: 
+Il est très important de faire une pull request pour pouvoir identifier votre code du nôtre facilement
 
 ---
 
