@@ -29,7 +29,7 @@ ETQ utilisateur s'abonnant à Cook it:
   - Mon code postal
 - Je souhaite voir un message d'erreur si mon courriel a un format invalide
 - Je souhaite voir un message d'erreur si mon code postal a un format invalide
-- Je souhaite voir un message d'erreur si mon code postal n'est pas présent dans la liste des codes postaux disponibles (API: `https://s9g64p6vzb.execute-api.us-east-1.amazonaws.com/default/interview-is-zip-valid`)
+- Je souhaite voir un message d'erreur si mon code postal n'est pas présent dans la liste des codes postaux disponibles (API: `https://us-central1-interview-zip-code.cloudfunctions.net/zipTest`)
 - Je souhaite pouvoir soumettre mes informations et être redirigé vers une page de confirmation
 - Je souhaite voir mes informations soumises présentes sur la page page de confirmation
 
