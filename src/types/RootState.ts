@@ -1,4 +1,5 @@
 import { ThemeState } from 'styles/theme/types';
+import { SubscribeState } from '../store/subscribeReducer';
 // [IMPORT NEW CONTAINERSTATE ABOVE] < Needed for generating containers seamlessly
 
 /* 
@@ -8,6 +9,7 @@ import { ThemeState } from 'styles/theme/types';
   So, not available always
 */
 export interface RootState {
+  subscribe?: SubscribeState;
   theme?: ThemeState;
   // [INSERT NEW REDUCER KEY ABOVE] < Needed for generating containers seamlessly
 }

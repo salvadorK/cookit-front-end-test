@@ -17,7 +17,15 @@
     "form": {
       "email": "Email",
       "postalCode": "Postal code",
-      "submit": "Submit"
+      "submit": "Submit",
+      "errorEmail": "Incorrect Email Format",
+      "errorPCFormat": "Incorrect Postal Code Format",
+      "errorPCvalid": "Invalid Postal Code"
     }
+  },
+  "confirm": {
+    "title": "Confirm?",
+    "OK" :"OK",
+    "back" : "Back"
   }
 }

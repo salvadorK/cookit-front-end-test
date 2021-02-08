@@ -25,6 +25,8 @@ exports[`<Subscribe /> should render and match the snapshot 1`] = `
       </FormLabel>
       <Input
         name="email"
+        onChange={[Function]}
+        onFocus={[Function]}
         type="text"
       />
       <FormLabel
@@ -34,9 +36,15 @@ exports[`<Subscribe /> should render and match the snapshot 1`] = `
       </FormLabel>
       <Input
         name="postalCode"
+        onChange={[Function]}
+        onFocus={[Function]}
         type="text"
       />
-      <Button>
+      <Button
+        disabled={true}
+        onClick={[Function]}
+        type="submit"
+      >
         Submit
       </Button>
     </Subscribe__Form>

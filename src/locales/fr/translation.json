@@ -17,7 +17,15 @@
     "form": {
       "email": "Courriel",
       "postalCode": "Code postal",
-      "submit": "Soumettre"
+      "submit": "Soumettre",
+      "errorEmail": "Format de courriel incorrect.",
+      "errorPCFormat": "Format de code postal incorrect.",
+      "errorPCvalid": "Le code postal est invalide."
     }
+  },
+  "confirm": {
+    "title": "Confirmez?",
+    "OK" :"OK",
+    "back" : "retour"
   }
 }
